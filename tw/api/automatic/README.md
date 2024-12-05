@@ -11,6 +11,8 @@
    "receiveAddress":"能量接受地址",
    "orderNotes":"订单备注"
 }
+```
+```js
 返回数据：
 {
    "code": 0,
@@ -23,7 +25,9 @@
        "hash": [], //能量代理hash
    },
 }
+```
 
+```js
 curl脚本例子：
 curl --silent --location 'https://app-api.trxdefi.ai/openapi/tron/energy/order/batchPay' \
 --header 'Content-Type: application/json' \
